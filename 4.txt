@@ -1,3 +1,0 @@
-Name: some one
-Email: some email
-Subject: some subect
