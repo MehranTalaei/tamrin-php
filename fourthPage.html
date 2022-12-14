@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mehran Talaei</title>
+        <link rel="stylesheet" href="test1.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+        <style>
+            body, html {height: 100%}
+            html,body,h3,h4,h5,h6{font-family: "Roboto", sans-serif}
+            h1,h2,a {font-family: "Amatic SC", sans-serif}
+            .menu {display: none}
+        </style>
+        <script>
+            function confirmSubmit() {
+  if (confirm("Are you sure you want to submit the form?")) {
+    document.getElementById("FORM_ID").submit();
+  }
+  return false;
+}
+        </script>
+    </head>
+
+    <body>
+        <div class="w3-top w3-hide-small">
+
+        <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+            <a href="firstPage.html" class="w3-bar-item w3-button">ME</a>
+            <a href="secondPage.html" class="w3-bar-item w3-button">skills</a>
+            <a href="thirdPage.html" class="w3-bar-item w3-button">Achievements</a>
+            <a href="fourthPage.html" class="w3-bar-item w3-button">CONTACT</a>
+        </div>
+
+        <h2 style="color: darkcyan ; text-align:center"> <b> Contact me! </b>
+            <img src="last one.jpg" style="float:right" height="640">
+            <div class="w3-twothird">
+
+                <form class="w3-container" action="response.php" method="post" target="_blank">
+                    <div class="w3-section">
+                      <label>Name</label>
+                      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
+                    </div>
+
+                    <div class="w3-section">
+                      <label>Email</label>
+                      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email" required>
+                    </div>
+
+                    <div class="w3-section">
+                      <label>Subject</label>
+                      <input class="w3-input w3-border w3-hover-border-black"  style="width:100%;" name="Subject" required>
+                    </div>
+                    <button onclick=confirmSubmit()="submit" class="w3-button w3-block w3-black">Send</button>
+                  </form>
+                
+                </div>
+            </div>
+
+
+        </div>
+    </body>
+</html>
